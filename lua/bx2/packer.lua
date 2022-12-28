@@ -29,6 +29,10 @@ return require('packer').startup(function(use)
     })
 
     use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
+    use {
+        "windwp/nvim-autopairs",
+        config = function() require("nvim-autopairs").setup {} end
+    }
     use('nvim-treesitter/playground')
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
