@@ -3,7 +3,7 @@ vim.opt.guicursor = ""
 vim.opt.nu = true
 vim.opt.relativenumber = false
 
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
