@@ -40,6 +40,7 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 -- next/previous buffer
 vim.keymap.set("n", "<leader>.", "<cmd>bn<cr>")
 vim.keymap.set("n", "<leader>m", "<cmd>bp<cr>")
+vim.keymap.set("n", "<leader>x", "<cmd>bd<cr>")
 
 -- replace the current word
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
