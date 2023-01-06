@@ -8,6 +8,7 @@ vim.keymap.set("n", "Q", "<nop>")
 
 -- terminal
 vim.keymap.set("n", "<leader>t", ":split term://zsh<CR>")
+vim.keymap.set("n", "<leader>tv", ":vsplit term://zsh<CR>")
 vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 -- move selection up and down
