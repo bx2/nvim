@@ -1,10 +1,14 @@
 vim.g.mapleader = ','
 
--- netrw
+-- open netrw
 vim.keymap.set('n', '<leader>ee', vim.cmd.Ex)
 
 -- disable Q
 vim.keymap.set("n", "Q", "<nop>")
+
+-- terminal
+vim.keymap.set("n", "<leader>t", ":split term://zsh<CR>")
+vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 -- move selection up and down
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
